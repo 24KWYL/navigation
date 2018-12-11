@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/nav_first">
+
+
+    <fragment
+        android:id="@+id/nav_first"
+        android:name="wyl.kobe.com.navigation.MainPageFragment1"
+        android:label="first"
+        app:layout="@layout/fragment_page_layout">
+        <action android:id="@+id/nav_first" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_second"
+        android:name="wyl.kobe.com.navigation.MainPageFragment2"
+        android:label="home"
+        app:layout="@layout/fragment_page_layout">
+        <action android:id="@+id/nav_home" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_third"
+        android:name="wyl.kobe.com.navigation.MainPageFragment3"
+        android:label="third"
+        app:layout="@layout/fragment_page_layout">
+        <action android:id="@+id/nav_third" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_four"
+        android:name="wyl.kobe.com.navigation.MainPageFragment4"
+        android:label="third"
+        app:layout="@layout/fragment_page_layout">
+        <action android:id="@+id/nav_four" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_five"
+        android:name="wyl.kobe.com.navigation.MainPageFragment5"
+        android:label="third"
+        app:layout="@layout/fragment_page_layout">
+        <action android:id="@+id/nav_five" />
+    </fragment>
+
+
+</navigation>
